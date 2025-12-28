@@ -1,0 +1,21 @@
+baseURL = 'https://truonghuyphuoc.github.io/'
+languageCode = 'vi-vn'
+title = 'Blog của Trương Huy Phước'
+theme = "PaperMod"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts/"
+    weight = 20
+  [[menu.main]]
+    identifier = "profile"
+    name = "Profile"
+    url = "/about/"
+    weight = 30
