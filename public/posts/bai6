@@ -1,0 +1,23 @@
+# Bài 6: Từ Callback Hell đến Async/Await trong JavaScript
+
+Xử lý bất đồng bộ là linh hồn của JavaScript hiện đại.
+
+### 1. Vấn đề của Callback
+Khi có quá nhiều hàm lồng nhau, chúng ta gặp "Callback Hell", khiến code không thể bảo trì.
+
+### 2. Promises
+Đại diện cho một giá trị trong tương lai (Pending, Fulfilled, Rejected).
+
+### 3. Async/Await (ES7)
+Giúp code bất đồng bộ trông giống như code đồng bộ, dễ đọc và xử lý lỗi bằng `try-catch` cực kỳ mượt mà.
+
+```javascript
+async function fetchData() {
+    try {
+        const response = await fetch('[https://api.example.com](https://api.example.com)');
+        const data = await response.json();
+        console.log(data);
+    } catch (error) {
+        console.error("Lỗi rồi!", error);
+    }
+}

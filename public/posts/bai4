@@ -1,0 +1,20 @@
+## File 4: `04-javascript-closures-scope.md`
+```markdown
+# Bài 4: Làm chủ Scope và Closures trong JavaScript
+
+Nhiều lỗi trong JS đến từ việc không hiểu biến của bạn "sống" ở đâu.
+
+### 1. Scope (Phạm vi)
+* **Global Scope:** Biến có thể truy cập ở mọi nơi.
+* **Function Scope:** Biến bên trong hàm.
+* **Block Scope (`let`, `const`):** Biến bên trong cặp ngoặc nhọn `{}`.
+
+### 2. Closures là gì?
+Closure là khả năng một hàm ghi nhớ và truy cập vào phạm vi bên ngoài của nó, ngay cả khi hàm đó đã thực thi xong.
+
+### 3. Ứng dụng
+* Tạo biến "private" trong JavaScript.
+* Data encapsulation.
+
+---
+*Lưu ý: Hãy luôn ưu tiên dùng `const` và `let` thay vì `var` để tránh hoisting ngoài ý muốn.*

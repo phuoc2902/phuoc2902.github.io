@@ -1,37 +1,56 @@
-baseURL = 'https://phuoc2902.github.io/'
-languageCode = 'vi-vn'
-title = 'KÝ SỰ TRƯƠNG HUY PHƯỚC' # Đổi tên cho giống phong cách bạn thích
+baseURL = "https://phuoc2902.github.io/"
+languageCode = "vi-vn"
+title = "TRƯƠNG HUY PHƯỚC"
 theme = "PaperMod"
 
 [params]
-    defaultTheme = "light" # Ép giao diện luôn sáng
+    defaultTheme = "light"
     ShowCodeCopyButtons = true
     displayFullLangName = true
     ShowShareButtons = true
     ShowReadingTime = true
-    
-    # Cấu hình phần giới thiệu ở đầu trang (giống phần tên trang Ký sự BrSE)
-    [params.homeInfoParams]
-        Title = "KÝ SỰ TRƯƠNG HUY PHƯỚC"
-        Content = "Nơi chia sẻ hành trình học tập Java, JavaScript và những trải nghiệm công nghệ."
 
+    # ==============================
+    # PROFILE MODE – HERO TRANG CHỦ
+    # ==============================
+    [params.profileMode]
+        enabled = true
+        title = "TRƯƠNG HUY PHƯỚC"
+        # Cập nhật Slogan tại đây
+        subtitle = "NO PAIN NO GAIN" 
+
+        [[params.profileMode.buttons]]
+            name = "Bài viết mới"
+            url = "posts"
+
+        [[params.profileMode.buttons]]
+            name = "Facebook"
+            url = "https://www.facebook.com/phuoctruong9211/"
+
+# ==============================
+# MENU CHÍNH
+# ==============================
+[menu]
     [[menu.main]]
         identifier = "home"
         name = "HOME"
         url = "/"
         weight = 10
+
     [[menu.main]]
         identifier = "java"
         name = "JAVA"
-        url = "/categories/java"
+        url = "/categories/java/"
         weight = 20
+
     [[menu.main]]
         identifier = "js"
         name = "JAVASCRIPT"
-        url = "/categories/javascript"
+        url = "/categories/javascript/"
         weight = 30
+
     [[menu.main]]
         identifier = "about"
         name = "ABOUT ME"
-        url = "/about"
+        url = "/about/"
         weight = 40

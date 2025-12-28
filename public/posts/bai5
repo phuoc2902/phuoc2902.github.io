@@ -1,0 +1,14 @@
+# Bài 5: Hiểu về Event Loop - Cơ chế "Single-threaded" cực nhanh của JS
+
+JavaScript là đơn luồng (single-threaded), vậy tại sao nó có thể xử lý hàng nghìn request cùng lúc?
+
+### 1. Thành phần chính
+* **Call Stack:** Nơi thực thi code đồng bộ.
+* **Web APIs:** Xử lý các tác vụ như `setTimeout`, Fetch API.
+* **Callback Queue:** Nơi đợi của các callback sau khi Web API xong.
+* **Event Loop:** Kiểm tra Call Stack, nếu trống thì đẩy callback từ Queue lên.
+
+
+
+### 2. Tại sao nó quan trọng?
+Hiểu Event Loop giúp bạn tránh việc "block" giao diện người dùng khi xử lý tác vụ nặng.

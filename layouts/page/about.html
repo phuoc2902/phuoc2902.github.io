@@ -1,0 +1,26 @@
+{{- define "main" }}
+
+<div class="about-hero-container">
+    <div class="about-hero-bg" style="background-image: url('/images/hero-bg.jpg');"></div>
+    
+    <div class="about-hero-content">
+        <h1 class="hero-slogan">NO PAIN NO GAIN</h1>
+    </div>
+</div>
+<article class="post-single content-container">
+  <header class="post-header">
+    <h1 class="post-title">
+      {{ .Title }}
+    </h1>
+  </header> 
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+  <footer class="post-footer">
+    {{- if (.Param "ShowShareButtons") }}
+    {{- partial "share_icons.html" . }}
+    {{- end }}
+  </footer>
+</article>
+
+{{- end }}{{/* End define main */}}

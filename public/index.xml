@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>TRƯƠNG HUY PHƯỚC</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on TRƯƠNG HUY PHƯỚC</description>
+    <generator>Hugo -- 0.153.3</generator>
+    <language>vi-vn</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h1 id=&#34;xin-chào-mình-là-trương-huy-phước-&#34;&gt;Xin chào, mình là Trương Huy Phước! 👋&lt;/h1&gt;
+&lt;h3 id=&#34;-thực-tập-sinh-it--game-developer-aspiring&#34;&gt;🎯 Thực tập sinh IT | Game Developer Aspiring&lt;/h3&gt;
+&lt;p&gt;Mình là sinh viên năm cuối ngành &lt;strong&gt;Công nghệ thông tin&lt;/strong&gt; tại &lt;strong&gt;Đại học HUTECH&lt;/strong&gt;. Với niềm đam mê mãnh liệt trong lĩnh vực phát triển Game (Unity/C#) và phát triển Web (Java/JavaScript), mình luôn nỗ lực học hỏi để tạo ra những sản phẩm công nghệ chất lượng.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-mục-tiêu-nghề-nghiệp&#34;&gt;🚀 Mục tiêu nghề nghiệp&lt;/h3&gt;
+&lt;p&gt;Hiện tại, mình đang tập trung trau dồi tư duy logic và kỹ năng giải quyết vấn đề. Mục tiêu ngắn hạn của mình là ứng dụng kiến thức đã học vào vị trí &lt;strong&gt;Thực tập sinh Game Developer&lt;/strong&gt; hoặc &lt;strong&gt;Software Developer&lt;/strong&gt; tại một môi trường chuyên nghiệp để đóng góp giá trị cho dự án và cộng đồng.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/02-java-jvm-memory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/02-java-jvm-memory/</guid>
+      <description>&lt;h1 id=&#34;bài-2-quản-lý-bộ-nhớ-trong-java-stack-vs-heap-và-cách-jvm-hoạt-động&#34;&gt;Bài 2: Quản lý bộ nhớ trong Java: Stack vs Heap và cách JVM hoạt động&lt;/h1&gt;
+&lt;p&gt;Tại sao Java lại mạnh mẽ? Câu trả lời nằm ở Java Virtual Machine (JVM).&lt;/p&gt;
+&lt;h3 id=&#34;1-cấu-trúc-bộ-nhớ-jvm&#34;&gt;1. Cấu trúc bộ nhớ JVM&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Stack:&lt;/strong&gt; Lưu trữ các biến cục bộ và lời gọi hàm. Mỗi thread có một Stack riêng.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Heap:&lt;/strong&gt; Lưu trữ tất cả các đối tượng (Objects) và biến instance. Đây là vùng nhớ chung.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-garbage-collection-gc&#34;&gt;2. Garbage Collection (GC)&lt;/h3&gt;
+&lt;p&gt;Java tự động giải phóng bộ nhớ thông qua GC. Nó tìm các đối tượng không còn được tham chiếu trong Heap và xóa chúng.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/bai-1-bien-trong-java/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/bai-1-bien-trong-java/</guid>
+      <description>&lt;h1 id=&#34;bài-1-hiểu-sâu-về-4-cột-trụ-của-lập-trình-hướng-đối-tượng-oop-trong-java&#34;&gt;Bài 1: Hiểu sâu về 4 cột trụ của Lập trình hướng đối tượng (OOP) trong Java&lt;/h1&gt;
+&lt;p&gt;Lập trình hướng đối tượng (OOP) không chỉ là cú pháp, nó là tư duy thiết kế phần mềm. Trong Java, OOP xoay quanh 4 nguyên lý chính.&lt;/p&gt;
+&lt;h3 id=&#34;1-tính-đóng-gói-encapsulation&#34;&gt;1. Tính Đóng gói (Encapsulation)&lt;/h3&gt;
+&lt;p&gt;Giúp che giấu trạng thái nội tại của đối tượng và chỉ cho phép truy cập thông qua các phương thức công khai (getter/setter).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
