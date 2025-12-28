@@ -262,7 +262,41 @@ Trong Java, OOP có 4 tính chất quan trọng. Nếu hiểu được 4 tính c
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
         <path d="M12 6H0l6-6z" />
     </svg>
-</a>
+</a><div id="music-container" style="position: fixed; bottom: 20px; left: 20px; z-index: 999; display: flex; align-items: center; background: rgba(0,0,0,0.5); padding: 8px 12px; border-radius: 20px; backdrop-filter: blur(5px);">
+    <button id="music-btn" style="background: none; border: none; color: white; cursor: pointer; font-size: 20px; outline: none;">
+        <span id="music-icon">▶️</span>
+    </button>
+    <span id="music-text" style="color: white; font-size: 12px; margin-left: 8px; font-family: sans-serif; display: none;">Playing Music...</span>
+    <audio id="bg-audio" loop>
+        <source src="/music/background-music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</div>
+
+<script>
+    const audio = document.getElementById("bg-audio");
+    const btn = document.getElementById("music-btn");
+    const icon = document.getElementById("music-icon");
+    const text = document.getElementById("music-text");
+
+    btn.addEventListener("click", function() {
+        if (audio.paused) {
+            audio.play();
+            icon.innerText = "⏸️";
+            text.style.display = "inline";
+        } else {
+            audio.pause();
+            icon.innerText = "▶️";
+            text.style.display = "none";
+        }
+    });
+
+    
+    document.addEventListener('click', function() {
+        
+        
+    }, { once: true });
+</script>
 
 <script>
     let menu = document.getElementById('menu');
