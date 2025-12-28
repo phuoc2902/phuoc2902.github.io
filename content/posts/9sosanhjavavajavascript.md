@@ -5,7 +5,7 @@ tags: ["Java & JavaScript"]
 author: ["Trương Huy Phước"]
 # Bắt đầu phần cấu hình ảnh bìa
 cover:
-    image: "/images/js-thumbnail1.jpg"  # Đường dẫn đến file ảnh
+    image: "/images/giongnhau.jpg"  # Đường dẫn đến file ảnh
     alt: "Hình minh họa biến và kiểu dữ liệu trong JavaScript" # Văn bản mô tả ảnh (tốt cho SEO)
     caption: "Ảnh minh họa"            # Chú thích ảnh (tùy chọn)
     relative: false                    # Đặt false vì ảnh nằm trong thư mục static
