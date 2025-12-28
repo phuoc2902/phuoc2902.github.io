@@ -1,6 +1,7 @@
 +++
 layout = "about"
 title = "Giới thiệu về tôi"
+url = "/about/"
 draft = false
 
 # Thêm đoạn cấu hình ảnh này vào

@@ -1,5 +1,6 @@
 ---
 title: "Lưu trữ"
-layout: "archives" # Layout liệt kê tất cả bài viết theo tháng/năm
+layout: "archives"
+url: "/archives/" # Thêm dòng này
 summary: "archives"
 ---
