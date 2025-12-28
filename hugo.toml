@@ -1,4 +1,4 @@
-baseURL = 'https://phuoc2902.github.io'
+baseURL = 'https://phuoc2902.github.io/'
 languageCode = 'vi-vn'
 title = 'Blog của Trương Huy Phước'
 theme = "PaperMod"
