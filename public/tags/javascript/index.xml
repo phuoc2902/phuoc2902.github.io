@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>JavaScript on TRƯƠNG HUY PHƯỚC</title>
+    <link>http://localhost:1313/tags/javascript/</link>
+    <description>Recent content in JavaScript on TRƯƠNG HUY PHƯỚC</description>
+    <generator>Hugo -- 0.153.3</generator>
+    <language>vi-vn</language>
+    <atom:link href="http://localhost:1313/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Biến và Kiểu dữ liệu trong JS</title>
+      <link>http://localhost:1313/posts/1bienvadulieu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/1bienvadulieu/</guid>
+      <description>&lt;p&gt;Chủ đề: #JavaScript Tác giả: [Trương Huy Phước] Biến và Kiểu dữ liệu trong JavaScript&amp;hellip; (Nội dung bài viết)&lt;/p&gt;
+&lt;p&gt;Biến và Kiểu dữ liệu trong JavaScript – Hiểu đơn giản từ đầu&lt;/p&gt;
+&lt;h3 id=&#34;1-giới-thiệu&#34;&gt;1. Giới thiệu&lt;/h3&gt;
+&lt;p&gt;Sau khi biết JavaScript (JS) là gì, bước tiếp theo mà ai học lập trình cũng phải gặp là Biến và Kiểu dữ liệu. Lúc mới học, mình từng thắc mắc: “Sao phải biến với chả kiểu dữ liệu cho mệt vậy?”. Nhưng khi hiểu ra rồi, mình mới thấy đây là phần quan trọng nhất, giống như học cách cất đồ trước khi làm việc lớn.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ES6&#43; – Những tính năng JavaScript nên biết khi bắt đầu</title>
+      <link>http://localhost:1313/posts/8es6&#43;/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/8es6&#43;/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu&#34;&gt;1. Giới thiệu&lt;/h3&gt;
+&lt;p&gt;JavaScript ngày xưa viết khá dài và dễ rối. Từ phiên bản ES6 trở đi, JavaScript được nâng cấp mạnh mẽ, giúp code ngắn hơn, dễ đọc hơn và ít lỗi hơn. Khi mới học, bạn không cần biết hết mọi thứ, chỉ cần nắm những tính năng dùng nhiều nhất là đủ.&lt;/p&gt;
+&lt;h3 id=&#34;2-nội-dung-chính&#34;&gt;2. Nội dung chính&lt;/h3&gt;
+&lt;h3 id=&#34;21-let-và-const&#34;&gt;2.1 let và const&lt;/h3&gt;
+&lt;p&gt;Trước đây, JavaScript chỉ có var. ES6 giới thiệu let và const để code an toàn hơn.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Thao tác với DOM đơn giản – Khi JavaScript “đụng tay” vào trang web</title>
+      <link>http://localhost:1313/posts/6dom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/6dom/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu&#34;&gt;1. Giới thiệu&lt;/h3&gt;
+&lt;p&gt;Khi mới học JavaScript, mình từng thắc mắc: “JavaScript dùng để làm gì ngoài tính toán?”. Câu trả lời là: JavaScript có thể thay đổi trang web đang hiển thị. Việc làm này được gọi là thao tác với DOM. Nghe tên hơi lạ, nhưng thực ra rất đơn giản và thú vị.&lt;/p&gt;
+&lt;h3 id=&#34;2-nội-dung-chính&#34;&gt;2. Nội dung chính&lt;/h3&gt;
+&lt;h3 id=&#34;21-dom-là-gì&#34;&gt;2.1 DOM là gì?&lt;/h3&gt;
+&lt;p&gt;DOM (Document Object Model) là cách trình duyệt hiểu và quản lý trang web.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Xử lý bất đồng bộ (Async / Await) – Chờ đợi thông minh trong JavaScript</title>
+      <link>http://localhost:1313/posts/4aaaa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/4aaaa/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu&#34;&gt;1. Giới thiệu&lt;/h3&gt;
+&lt;p&gt;Khi mới học JavaScript, mình từng thắc mắc: “Tại sao có đoạn code chạy liền, có đoạn lại phải chờ?”. Thật ra, máy tính cũng giống con người, có việc làm nhanh, có việc cần thời gian. Async / Await giúp JavaScript biết khi nào nên chờ và khi nào nên làm tiếp mà không bị rối.&lt;/p&gt;
+&lt;h3 id=&#34;2-nội-dung-chính&#34;&gt;2. Nội dung chính&lt;/h3&gt;
+&lt;p&gt;2.1 Bất đồng bộ là gì?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -3,34 +3,63 @@ languageCode = "vi-vn"
 title = "TRƯƠNG HUY PHƯỚC"
 theme = "PaperMod"
 
+# Cấu hình để hỗ trợ tính năng Search (Tạo file chỉ mục JSON)
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+
 [params]
     defaultTheme = "light"
     ShowCodeCopyButtons = true
     displayFullLangName = true
     ShowShareButtons = true
     ShowReadingTime = true
+    ShowBreadCrumbs = true      # Hiện đường dẫn (Home > Posts > Title) giúp người dùng dễ điều hướng
+    ShowPostNavLinks = true     # Hiện nút bài tiếp theo/bài trước đó ở cuối bài viết
 
-    # ==============================
-    # PROFILE MODE – HERO TRANG CHỦ
-    # ==============================
+    # --- Cấu hình Tìm kiếm (Search) ---
+    [params.fuseOpts]
+        isCaseSensitive = false
+        shouldSort = true
+        location = 0
+        distance = 100
+        threshold = 0.4
+        minMatchCharLength = 0
+        keys = ["title", "permalink", "summary", "content"]
+
+    # --- Cấu hình Ảnh bìa ---
+    [params.cover]
+        hidden = false
+        hiddenInList = false
+        hiddenInSingle = false
+
+    # --- Profile Mode (Trang chủ) ---
     [params.profileMode]
         enabled = true
         title = "TRƯƠNG HUY PHƯỚC"
-        # Cập nhật Slogan tại đây
-        subtitle = "NO PAIN NO GAIN" 
+        subtitle = "🚀 Học lập trình mỗi ngày - No Pain No Gain" 
+        imageUrl = "images/hero-bg.jpg" # Bạn có thể thêm ảnh đại diện tại đây
+        imageWidth = 120
+        imageHeight = 120
 
         [[params.profileMode.buttons]]
-            name = "Bài viết mới"
-            url = "posts"
+            name = "📚 Đọc Bài Viết"
+            url = "/posts/"
 
         [[params.profileMode.buttons]]
-            name = "Facebook"
-            url = "https://www.facebook.com/phuoctruong9211/"
+            name = "🔍 Tìm Kiếm"
+            url = "/search/"
 
-# ==============================
-# MENU CHÍNH
-# ==============================
+    # --- Social Icons (Thêm các icon mạng xã hội cho chuyên nghiệp) ---
+    [[params.socialIcons]]
+        name = "facebook"
+        url = "https://www.facebook.com/phuoctruong9211/"
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/phuoc2902" # Thay bằng link GitHub của bạn
+
+# --- Menu Chính ---
 [menu]
+
     [[menu.main]]
         identifier = "home"
         name = "HOME"
@@ -38,16 +67,16 @@ theme = "PaperMod"
         weight = 10
 
     [[menu.main]]
-        identifier = "java"
-        name = "JAVA"
-        url = "/categories/java/"
-        weight = 20
+        identifier = "search"
+        name = "🔍 SEARCH"
+        url = "/search/"
+        weight = 5
 
     [[menu.main]]
-        identifier = "js"
-        name = "JAVASCRIPT"
-        url = "/categories/javascript/"
-        weight = 30
+        identifier = "posts"
+        name = "POSTS"
+        url = "/posts/"
+        weight = 20
 
     [[menu.main]]
         identifier = "about"

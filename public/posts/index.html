@@ -10,7 +10,7 @@
 <meta name="description" content="Posts - TRƯƠNG HUY PHƯỚC">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/posts/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.ba06e865dc326f692a385dffaa40aa12c94d1f5ac3f2e6ae3681fe034b9dcd27.css" integrity="sha256-ugboZdwyb2kqOF3/qkCqEslNH1rD8uauNoH&#43;A0udzSc=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.50a882ce167154d634525af733a5221b207add18d4d7f424a70e4907c97e6125.css" integrity="sha256-UKiCzhZxVNY0Ulr3M6UiGyB63RjU1/Qkpw5JB8l&#43;YSU=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -66,18 +66,18 @@
         </div>
         <ul id="menu">
             <li>
+                <a href="http://localhost:1313/search/" title="🔍 SEARCH (Alt &#43; /)" accesskey=/>
+                    <span>🔍 SEARCH</span>
+                </a>
+            </li>
+            <li>
                 <a href="http://localhost:1313/" title="HOME">
                     <span>HOME</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/categories/java/" title="JAVA">
-                    <span>JAVA</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/categories/javascript/" title="JAVASCRIPT">
-                    <span>JAVASCRIPT</span>
+                <a href="http://localhost:1313/posts/" title="POSTS">
+                    <span class="active">POSTS</span>
                 </a>
             </li>
             <li>
@@ -89,38 +89,163 @@
     </nav>
 </header>
 <main class="main"> 
-<header class="page-header">
+<header class="page-header"><div class="breadcrumbs"><a href="http://localhost:1313/">Home</a></div>
   <h1>
     Posts
   </h1>
 </header>
 
 <article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/js-thumbnail1.jpg" alt="Hình minh họa biến và kiểu dữ liệu trong JavaScript">
+</figure>
   <header class="entry-header">
-    <h2 class="entry-hint-parent">
+    <h2 class="entry-hint-parent">Biến và Kiểu dữ liệu trong JS
     </h2>
   </header>
   <div class="entry-content">
-    <p>Bài 2: Quản lý bộ nhớ trong Java: Stack vs Heap và cách JVM hoạt động Tại sao Java lại mạnh mẽ? Câu trả lời nằm ở Java Virtual Machine (JVM).
-1. Cấu trúc bộ nhớ JVM Stack: Lưu trữ các biến cục bộ và lời gọi hàm. Mỗi thread có một Stack riêng. Heap: Lưu trữ tất cả các đối tượng (Objects) và biến instance. Đây là vùng nhớ chung. 2. Garbage Collection (GC) Java tự động giải phóng bộ nhớ thông qua GC. Nó tìm các đối tượng không còn được tham chiếu trong Heap và xóa chúng.
+    <p>Chủ đề: #JavaScript Tác giả: [Trương Huy Phước] Biến và Kiểu dữ liệu trong JavaScript… (Nội dung bài viết)
+Biến và Kiểu dữ liệu trong JavaScript – Hiểu đơn giản từ đầu
+1. Giới thiệu Sau khi biết JavaScript (JS) là gì, bước tiếp theo mà ai học lập trình cũng phải gặp là Biến và Kiểu dữ liệu. Lúc mới học, mình từng thắc mắc: “Sao phải biến với chả kiểu dữ liệu cho mệt vậy?”. Nhưng khi hiểu ra rồi, mình mới thấy đây là phần quan trọng nhất, giống như học cách cất đồ trước khi làm việc lớn.
 ...</p>
   </div>
-  <footer class="entry-footer"><span>1 min</span></footer>
-  <a class="entry-link" aria-label="post link to " href="http://localhost:1313/posts/02-java-jvm-memory/"></a>
+  <footer class="entry-footer"><span>3 min</span>&nbsp;·&nbsp;<span>Trương Huy Phước</span></footer>
+  <a class="entry-link" aria-label="post link to Biến và Kiểu dữ liệu trong JS" href="http://localhost:1313/posts/1bienvadulieu/"></a>
 </article>
 
 <article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/js-thumbnail1.jpg" alt="Hình minh họa biến và kiểu dữ liệu trong JavaScript">
+</figure>
   <header class="entry-header">
-    <h2 class="entry-hint-parent">
+    <h2 class="entry-hint-parent">Collection Framework trong Java – Cách Java cất giữ nhiều đồ cùng lúc
     </h2>
   </header>
   <div class="entry-content">
-    <p>Bài 1: Hiểu sâu về 4 cột trụ của Lập trình hướng đối tượng (OOP) trong Java Lập trình hướng đối tượng (OOP) không chỉ là cú pháp, nó là tư duy thiết kế phần mềm. Trong Java, OOP xoay quanh 4 nguyên lý chính.
-1. Tính Đóng gói (Encapsulation) Giúp che giấu trạng thái nội tại của đối tượng và chỉ cho phép truy cập thông qua các phương thức công khai (getter/setter).
+    <p>1. Giới thiệu Khi học Java, đến một lúc bạn sẽ gặp câu hỏi: “Nếu mình có rất nhiều dữ liệu thì lưu ở đâu?”. Lúc này, Collection Framework xuất hiện để giải quyết vấn đề đó. Bạn có thể hiểu đơn giản: Collection Framework là những cái hộp thông minh giúp Java cất giữ, sắp xếp và lấy dữ liệu ra dễ dàng.
+2. Nội dung chính 2.1 Collection Framework là gì? Collection Framework là một tập hợp các cách lưu trữ nhiều dữ liệu trong Java.
 ...</p>
   </div>
-  <footer class="entry-footer"><span>1 min</span></footer>
-  <a class="entry-link" aria-label="post link to " href="http://localhost:1313/posts/bai-1-bien-trong-java/"></a>
+  <footer class="entry-footer"><span>3 min</span>&nbsp;·&nbsp;<span>Trương Huy Phước</span></footer>
+  <a class="entry-link" aria-label="post link to Collection Framework trong Java – Cách Java cất giữ nhiều đồ cùng lúc" href="http://localhost:1313/posts/5collectionframework/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/js-thumbnail1.jpg" alt="Hình minh họa biến và kiểu dữ liệu trong JavaScript">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">ES6&#43; – Những tính năng JavaScript nên biết khi bắt đầu
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>1. Giới thiệu JavaScript ngày xưa viết khá dài và dễ rối. Từ phiên bản ES6 trở đi, JavaScript được nâng cấp mạnh mẽ, giúp code ngắn hơn, dễ đọc hơn và ít lỗi hơn. Khi mới học, bạn không cần biết hết mọi thứ, chỉ cần nắm những tính năng dùng nhiều nhất là đủ.
+2. Nội dung chính 2.1 let và const Trước đây, JavaScript chỉ có var. ES6 giới thiệu let và const để code an toàn hơn.
+...</p>
+  </div>
+  <footer class="entry-footer"><span>3 min</span>&nbsp;·&nbsp;<span>Trương Huy Phước</span></footer>
+  <a class="entry-link" aria-label="post link to ES6&#43; – Những tính năng JavaScript nên biết khi bắt đầu" href="http://localhost:1313/posts/8es6&#43;/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/js-thumbnail1.jpg" alt="Hình minh họa biến và kiểu dữ liệu trong JavaScript">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Exception Handling trong Java – Khi chương trình biết tự xử lý lỗi
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>1. Giới thiệu Khi học Java, sớm hay muộn bạn cũng sẽ gặp lỗi. Lúc mới học, mình từng rất sợ lỗi vì chương trình cứ báo đỏ chói và không chạy. Nhưng thật ra, lỗi không xấu. Quan trọng là Java cho phép chúng ta bắt lỗi và xử lý nó để chương trình không bị sập. Việc đó được gọi là Exception Handling.
+2. Nội dung chính 2.1 Exception là gì? Exception có thể hiểu là:
+...</p>
+  </div>
+  <footer class="entry-footer"><span>3 min</span>&nbsp;·&nbsp;<span>Trương Huy Phước</span></footer>
+  <a class="entry-link" aria-label="post link to Exception Handling trong Java – Khi chương trình biết tự xử lý lỗi" href="http://localhost:1313/posts/7exceptionhandling/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/js-thumbnail1.jpg" alt="Hình minh họa biến và kiểu dữ liệu trong JavaScript">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Java là gì? Mình đã bắt đầu học Java như thế nào
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>1. Giới thiệu Java là một trong những ngôn ngữ lập trình phổ biến nhất trên thế giới, nhưng khi mới nghe đến, nhiều người thường nghĩ nó rất khó. Bản thân mình lúc mới học cũng từng tưởng Java là thứ gì đó rất “cao siêu” và chỉ dành cho người giỏi máy tính. Thật ra, nếu hiểu đúng bản chất, Java chỉ là một cách để nói cho máy tính biết bạn muốn nó làm gì mà thôi.
+...</p>
+  </div>
+  <footer class="entry-footer"><span>4 min</span>&nbsp;·&nbsp;<span>Trương Huy Phước</span></footer>
+  <a class="entry-link" aria-label="post link to Java là gì? Mình đã bắt đầu học Java như thế nào" href="http://localhost:1313/posts/2javalagi/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/js-thumbnail1.jpg" alt="Hình minh họa biến và kiểu dữ liệu trong JavaScript">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">So sánh Java và JavaScript – Hai cái tên giống nhau nhưng rất khác
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>1. Giới thiệu Khi mới học lập trình, rất nhiều người (trong đó có mình) từng nghĩ Java và JavaScript là một vì tên giống nhau. Thật ra, đây là hai ngôn ngữ hoàn toàn khác nhau, chỉ giống nhau ở… cái tên. Bài viết này sẽ giúp bạn phân biệt rõ Java và JavaScript một cách dễ hiểu nhất.
+2. Nội dung chính 2.1 Java và JavaScript giống nhau ở điểm nào? Đều là ngôn ngữ lập trình
+...</p>
+  </div>
+  <footer class="entry-footer"><span>3 min</span>&nbsp;·&nbsp;<span>Trương Huy Phước</span></footer>
+  <a class="entry-link" aria-label="post link to So sánh Java và JavaScript – Hai cái tên giống nhau nhưng rất khác" href="http://localhost:1313/posts/9sosanhjavavajavascript/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/js-thumbnail1.jpg" alt="Hình minh họa biến và kiểu dữ liệu trong JavaScript">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Thao tác với DOM đơn giản – Khi JavaScript “đụng tay” vào trang web
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>1. Giới thiệu Khi mới học JavaScript, mình từng thắc mắc: “JavaScript dùng để làm gì ngoài tính toán?”. Câu trả lời là: JavaScript có thể thay đổi trang web đang hiển thị. Việc làm này được gọi là thao tác với DOM. Nghe tên hơi lạ, nhưng thực ra rất đơn giản và thú vị.
+2. Nội dung chính 2.1 DOM là gì? DOM (Document Object Model) là cách trình duyệt hiểu và quản lý trang web.
+...</p>
+  </div>
+  <footer class="entry-footer"><span>3 min</span>&nbsp;·&nbsp;<span>Trương Huy Phước</span></footer>
+  <a class="entry-link" aria-label="post link to Thao tác với DOM đơn giản – Khi JavaScript “đụng tay” vào trang web" href="http://localhost:1313/posts/6dom/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/js-thumbnail1.jpg" alt="Hình minh họa biến và kiểu dữ liệu trong JavaScript">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Tính chất của OOP trong Java – Hiểu như chơi đồ chơi LEGO
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>1. Giới thiệu Khi học Java đến một lúc nào đó, bạn sẽ nghe tới một khái niệm rất hay: OOP – Lập trình hướng đối tượng. Lúc mới nghe, mình cũng hơi “ngợp” vì tên nghe khá to. Nhưng thật ra, OOP chỉ là cách tổ chức chương trình cho gọn gàng, dễ hiểu và dễ sửa hơn mà thôi.
+Trong Java, OOP có 4 tính chất quan trọng. Nếu hiểu được 4 tính chất này, bạn sẽ thấy Java dễ thở hơn rất nhiều.
+...</p>
+  </div>
+  <footer class="entry-footer"><span>4 min</span>&nbsp;·&nbsp;<span>Trương Huy Phước</span></footer>
+  <a class="entry-link" aria-label="post link to Tính chất của OOP trong Java – Hiểu như chơi đồ chơi LEGO" href="http://localhost:1313/posts/3oop/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/js-thumbnail1.jpg" alt="Hình minh họa biến và kiểu dữ liệu trong JavaScript">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Xử lý bất đồng bộ (Async / Await) – Chờ đợi thông minh trong JavaScript
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>1. Giới thiệu Khi mới học JavaScript, mình từng thắc mắc: “Tại sao có đoạn code chạy liền, có đoạn lại phải chờ?”. Thật ra, máy tính cũng giống con người, có việc làm nhanh, có việc cần thời gian. Async / Await giúp JavaScript biết khi nào nên chờ và khi nào nên làm tiếp mà không bị rối.
+2. Nội dung chính 2.1 Bất đồng bộ là gì?
+...</p>
+  </div>
+  <footer class="entry-footer"><span>3 min</span>&nbsp;·&nbsp;<span>Trương Huy Phước</span></footer>
+  <a class="entry-link" aria-label="post link to Xử lý bất đồng bộ (Async / Await) – Chờ đợi thông minh trong JavaScript" href="http://localhost:1313/posts/4aaaa/"></a>
 </article>
     </main>
     

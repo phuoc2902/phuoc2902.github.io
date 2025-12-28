@@ -8,7 +8,50 @@
     <language>vi-vn</language>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
+      <title>Biến và Kiểu dữ liệu trong JS</title>
+      <link>http://localhost:1313/posts/1bienvadulieu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/1bienvadulieu/</guid>
+      <description>&lt;p&gt;Chủ đề: #JavaScript Tác giả: [Trương Huy Phước] Biến và Kiểu dữ liệu trong JavaScript&amp;hellip; (Nội dung bài viết)&lt;/p&gt;
+&lt;p&gt;Biến và Kiểu dữ liệu trong JavaScript – Hiểu đơn giản từ đầu&lt;/p&gt;
+&lt;h3 id=&#34;1-giới-thiệu&#34;&gt;1. Giới thiệu&lt;/h3&gt;
+&lt;p&gt;Sau khi biết JavaScript (JS) là gì, bước tiếp theo mà ai học lập trình cũng phải gặp là Biến và Kiểu dữ liệu. Lúc mới học, mình từng thắc mắc: “Sao phải biến với chả kiểu dữ liệu cho mệt vậy?”. Nhưng khi hiểu ra rồi, mình mới thấy đây là phần quan trọng nhất, giống như học cách cất đồ trước khi làm việc lớn.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Collection Framework trong Java – Cách Java cất giữ nhiều đồ cùng lúc</title>
+      <link>http://localhost:1313/posts/5collectionframework/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/5collectionframework/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu&#34;&gt;1. Giới thiệu&lt;/h3&gt;
+&lt;p&gt;Khi học Java, đến một lúc bạn sẽ gặp câu hỏi: “Nếu mình có rất nhiều dữ liệu thì lưu ở đâu?”. Lúc này, Collection Framework xuất hiện để giải quyết vấn đề đó. Bạn có thể hiểu đơn giản: Collection Framework là những cái hộp thông minh giúp Java cất giữ, sắp xếp và lấy dữ liệu ra dễ dàng.&lt;/p&gt;
+&lt;h3 id=&#34;2-nội-dung-chính&#34;&gt;2. Nội dung chính&lt;/h3&gt;
+&lt;h3 id=&#34;21-collection-framework-là-gì&#34;&gt;2.1 Collection Framework là gì?&lt;/h3&gt;
+&lt;p&gt;Collection Framework là một tập hợp các cách lưu trữ nhiều dữ liệu trong Java.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ES6&#43; – Những tính năng JavaScript nên biết khi bắt đầu</title>
+      <link>http://localhost:1313/posts/8es6&#43;/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/8es6&#43;/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu&#34;&gt;1. Giới thiệu&lt;/h3&gt;
+&lt;p&gt;JavaScript ngày xưa viết khá dài và dễ rối. Từ phiên bản ES6 trở đi, JavaScript được nâng cấp mạnh mẽ, giúp code ngắn hơn, dễ đọc hơn và ít lỗi hơn. Khi mới học, bạn không cần biết hết mọi thứ, chỉ cần nắm những tính năng dùng nhiều nhất là đủ.&lt;/p&gt;
+&lt;h3 id=&#34;2-nội-dung-chính&#34;&gt;2. Nội dung chính&lt;/h3&gt;
+&lt;h3 id=&#34;21-let-và-const&#34;&gt;2.1 let và const&lt;/h3&gt;
+&lt;p&gt;Trước đây, JavaScript chỉ có var. ES6 giới thiệu let và const để code an toàn hơn.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Exception Handling trong Java – Khi chương trình biết tự xử lý lỗi</title>
+      <link>http://localhost:1313/posts/7exceptionhandling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/7exceptionhandling/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu&#34;&gt;1. Giới thiệu&lt;/h3&gt;
+&lt;p&gt;Khi học Java, sớm hay muộn bạn cũng sẽ gặp lỗi. Lúc mới học, mình từng rất sợ lỗi vì chương trình cứ báo đỏ chói và không chạy. Nhưng thật ra, lỗi không xấu. Quan trọng là Java cho phép chúng ta bắt lỗi và xử lý nó để chương trình không bị sập. Việc đó được gọi là Exception Handling.&lt;/p&gt;
+&lt;h3 id=&#34;2-nội-dung-chính&#34;&gt;2. Nội dung chính&lt;/h3&gt;
+&lt;h3 id=&#34;21-exception-là-gì&#34;&gt;2.1 Exception là gì?&lt;/h3&gt;
+&lt;p&gt;Exception có thể hiểu là:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Giới thiệu về tôi</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
@@ -20,29 +63,53 @@
 &lt;p&gt;Hiện tại, mình đang tập trung trau dồi tư duy logic và kỹ năng giải quyết vấn đề. Mục tiêu ngắn hạn của mình là ứng dụng kiến thức đã học vào vị trí &lt;strong&gt;Thực tập sinh Game Developer&lt;/strong&gt; hoặc &lt;strong&gt;Software Developer&lt;/strong&gt; tại một môi trường chuyên nghiệp để đóng góp giá trị cho dự án và cộng đồng.&lt;/p&gt;</description>
     </item>
     <item>
-      <title></title>
-      <link>http://localhost:1313/posts/02-java-jvm-memory/</link>
+      <title>Java là gì? Mình đã bắt đầu học Java như thế nào</title>
+      <link>http://localhost:1313/posts/2javalagi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/02-java-jvm-memory/</guid>
-      <description>&lt;h1 id=&#34;bài-2-quản-lý-bộ-nhớ-trong-java-stack-vs-heap-và-cách-jvm-hoạt-động&#34;&gt;Bài 2: Quản lý bộ nhớ trong Java: Stack vs Heap và cách JVM hoạt động&lt;/h1&gt;
-&lt;p&gt;Tại sao Java lại mạnh mẽ? Câu trả lời nằm ở Java Virtual Machine (JVM).&lt;/p&gt;
-&lt;h3 id=&#34;1-cấu-trúc-bộ-nhớ-jvm&#34;&gt;1. Cấu trúc bộ nhớ JVM&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Stack:&lt;/strong&gt; Lưu trữ các biến cục bộ và lời gọi hàm. Mỗi thread có một Stack riêng.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Heap:&lt;/strong&gt; Lưu trữ tất cả các đối tượng (Objects) và biến instance. Đây là vùng nhớ chung.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;2-garbage-collection-gc&#34;&gt;2. Garbage Collection (GC)&lt;/h3&gt;
-&lt;p&gt;Java tự động giải phóng bộ nhớ thông qua GC. Nó tìm các đối tượng không còn được tham chiếu trong Heap và xóa chúng.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/2javalagi/</guid>
+      <description>&lt;h2 id=&#34;1-giới-thiệu&#34;&gt;1. Giới thiệu&lt;/h2&gt;
+&lt;p&gt;Java là một trong những ngôn ngữ lập trình phổ biến nhất trên thế giới, nhưng khi mới nghe đến, nhiều người thường nghĩ nó rất khó. Bản thân mình lúc mới học cũng từng tưởng Java là thứ gì đó rất “cao siêu” và chỉ dành cho người giỏi máy tính. Thật ra, nếu hiểu đúng bản chất, Java chỉ là một cách để nói cho máy tính biết bạn muốn nó làm gì mà thôi.&lt;/p&gt;</description>
     </item>
     <item>
-      <title></title>
-      <link>http://localhost:1313/posts/bai-1-bien-trong-java/</link>
+      <title>So sánh Java và JavaScript – Hai cái tên giống nhau nhưng rất khác</title>
+      <link>http://localhost:1313/posts/9sosanhjavavajavascript/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/bai-1-bien-trong-java/</guid>
-      <description>&lt;h1 id=&#34;bài-1-hiểu-sâu-về-4-cột-trụ-của-lập-trình-hướng-đối-tượng-oop-trong-java&#34;&gt;Bài 1: Hiểu sâu về 4 cột trụ của Lập trình hướng đối tượng (OOP) trong Java&lt;/h1&gt;
-&lt;p&gt;Lập trình hướng đối tượng (OOP) không chỉ là cú pháp, nó là tư duy thiết kế phần mềm. Trong Java, OOP xoay quanh 4 nguyên lý chính.&lt;/p&gt;
-&lt;h3 id=&#34;1-tính-đóng-gói-encapsulation&#34;&gt;1. Tính Đóng gói (Encapsulation)&lt;/h3&gt;
-&lt;p&gt;Giúp che giấu trạng thái nội tại của đối tượng và chỉ cho phép truy cập thông qua các phương thức công khai (getter/setter).&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/9sosanhjavavajavascript/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu&#34;&gt;1. Giới thiệu&lt;/h3&gt;
+&lt;p&gt;Khi mới học lập trình, rất nhiều người (trong đó có mình) từng nghĩ Java và JavaScript là một vì tên giống nhau. Thật ra, đây là hai ngôn ngữ hoàn toàn khác nhau, chỉ giống nhau ở… cái tên. Bài viết này sẽ giúp bạn phân biệt rõ Java và JavaScript một cách dễ hiểu nhất.&lt;/p&gt;
+&lt;h3 id=&#34;2-nội-dung-chính&#34;&gt;2. Nội dung chính&lt;/h3&gt;
+&lt;h3 id=&#34;21-java-và-javascript-giống-nhau-ở-điểm-nào&#34;&gt;2.1 Java và JavaScript giống nhau ở điểm nào?&lt;/h3&gt;
+&lt;p&gt;Đều là ngôn ngữ lập trình&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Thao tác với DOM đơn giản – Khi JavaScript “đụng tay” vào trang web</title>
+      <link>http://localhost:1313/posts/6dom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/6dom/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu&#34;&gt;1. Giới thiệu&lt;/h3&gt;
+&lt;p&gt;Khi mới học JavaScript, mình từng thắc mắc: “JavaScript dùng để làm gì ngoài tính toán?”. Câu trả lời là: JavaScript có thể thay đổi trang web đang hiển thị. Việc làm này được gọi là thao tác với DOM. Nghe tên hơi lạ, nhưng thực ra rất đơn giản và thú vị.&lt;/p&gt;
+&lt;h3 id=&#34;2-nội-dung-chính&#34;&gt;2. Nội dung chính&lt;/h3&gt;
+&lt;h3 id=&#34;21-dom-là-gì&#34;&gt;2.1 DOM là gì?&lt;/h3&gt;
+&lt;p&gt;DOM (Document Object Model) là cách trình duyệt hiểu và quản lý trang web.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tính chất của OOP trong Java – Hiểu như chơi đồ chơi LEGO</title>
+      <link>http://localhost:1313/posts/3oop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/3oop/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu&#34;&gt;1. Giới thiệu&lt;/h3&gt;
+&lt;p&gt;Khi học Java đến một lúc nào đó, bạn sẽ nghe tới một khái niệm rất hay: OOP – Lập trình hướng đối tượng. Lúc mới nghe, mình cũng hơi “ngợp” vì tên nghe khá to. Nhưng thật ra, OOP chỉ là cách tổ chức chương trình cho gọn gàng, dễ hiểu và dễ sửa hơn mà thôi.&lt;/p&gt;
+&lt;p&gt;Trong Java, OOP có 4 tính chất quan trọng. Nếu hiểu được 4 tính chất này, bạn sẽ thấy Java dễ thở hơn rất nhiều.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Xử lý bất đồng bộ (Async / Await) – Chờ đợi thông minh trong JavaScript</title>
+      <link>http://localhost:1313/posts/4aaaa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/4aaaa/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu&#34;&gt;1. Giới thiệu&lt;/h3&gt;
+&lt;p&gt;Khi mới học JavaScript, mình từng thắc mắc: “Tại sao có đoạn code chạy liền, có đoạn lại phải chờ?”. Thật ra, máy tính cũng giống con người, có việc làm nhanh, có việc cần thời gian. Async / Await giúp JavaScript biết khi nào nên chờ và khi nào nên làm tiếp mà không bị rối.&lt;/p&gt;
+&lt;h3 id=&#34;2-nội-dung-chính&#34;&gt;2. Nội dung chính&lt;/h3&gt;
+&lt;p&gt;2.1 Bất đồng bộ là gì?&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

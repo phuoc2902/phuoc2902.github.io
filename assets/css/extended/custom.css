@@ -1,78 +1,124 @@
-/* 1. ĐỊNH DẠNG KHUNG HERO RỘNG HƠN ĐỂ BỚT TRỐNG */
+/* ============================================================
+   1. ĐỊNH DẠNG KHUNG HERO (TRANG CHỦ)
+   ============================================================ */
 .profile_inner {
     position: relative;
-    min-height: 550px; /* Tăng chiều cao một chút */
-    width: 100%;       /* Chiếm hết chiều ngang của khung chứa */
-    max-width: 1200px; /* Nới rộng giới hạn tối đa */
+    min-height: 550px;
+    width: 100%;
+    max-width: 1200px;
     margin: 20px auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Các thành phần chính vẫn xếp dọc (Tên -> Slogan -> Nút) */
     justify-content: center;
     align-items: center;
     border-radius: 20px;
     overflow: hidden;
     color: white !important;
-    /* Thêm viền phát sáng nhẹ để tạo chiều sâu */
     box-shadow: 0 20px 50px rgba(0,0,0,0.3), inset 0 0 100px rgba(0,0,0,0.2);
+    text-align: center;
 }
 
-/* 2. LỚP NỀN (ẢNH CHÌM) */
+/* LỚP NỀN (ẢNH CHÌM) */
 .profile_inner::before {
     content: "";
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
     background-image: url('/images/hero-bg.jpg'); 
     background-size: cover;
-    background-position: center 30%; /* Điều chỉnh để lấy phần mặt ảnh đẹp nhất */
-    filter: brightness(0.45) contrast(1.1); /* Tăng tương phản để ảnh sâu hơn */
+    background-position: center 30%;
+    filter: brightness(0.4) contrast(1.1);
     z-index: -1;
 }
 
-/* 3. LÀM SÁNG CHỮ "KÝ SỰ TRƯƠNG HUY PHƯỚC" */
-.profile_inner h1 {
-    font-size: 3.5rem !important; /* Phóng to tiêu đề */
-    font-weight: 900 !important;
-    color: #ffffff !important;   /* Màu trắng tinh khiết */
-    text-transform: uppercase;
-    letter-spacing: 5px;         /* Giãn chữ để trông sang hơn */
-    margin-bottom: 10px !important;
-    /* Đổ bóng chữ mạnh hơn để tách biệt khỏi nền */
-    text-shadow: 0 5px 15px rgba(0,0,0,0.8), 0 0 20px rgba(255,255,255,0.2);
+/* LOẠI BỎ AVATAR HÌNH TRÒN */
+.profile_inner img, 
+.profile_image,
+.profile_inner .profile_image_etc {
+    display: none !important;
 }
 
-/* 4. ĐỊNH DẠNG SLOGAN "NO PAIN NO GAIN" */
-.profile_inner .profile_description {
-    font-size: 1.8rem !important;
-    font-weight: 700 !important;
-    color: #ffd700 !important; /* Màu vàng Gold để tạo điểm nhấn nổi bật */
+/* ============================================================
+   2. LÀM SÁNG CHỮ VÀ TIÊU ĐỀ
+   ============================================================ */
+.profile_inner h1 {
+    font-size: clamp(2.5rem, 8vw, 4.5rem) !important;
+    font-weight: 900 !important;
+    color: #ffffff !important;
     text-transform: uppercase;
     letter-spacing: 8px;
-    margin-bottom: 30px !important;
-    text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    margin-bottom: 15px !important;
+    text-shadow: 0 5px 15px rgba(0,0,0,0.8), 0 0 25px rgba(255,255,255,0.3);
 }
 
-/* 5. ĐỂ BỚT TRỐNG 2 BÊN: THÊM HIỆU ỨNG VIỀN MỜ (DECORATION) */
-.profile_inner::after {
-    content: "";
-    position: absolute;
-    width: 80%;
-    height: 1px;
-    bottom: 40px;
-    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.5), transparent);
+.profile_inner .profile_description {
+    font-size: clamp(1.2rem, 4vw, 2.2rem) !important;
+    font-weight: 700 !important;
+    color: #ffd700 !important;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-bottom: 40px !important;
+    text-shadow: 2px 4px 10px rgba(0,0,0,0.6);
 }
 
-/* 6. TÙY CHỈNH CÁC NÚT BẤM */
+/* ============================================================
+   3. CĂN CHỈNH 2 NÚT BẤM NẰM NGANG
+   ============================================================ */
+.profile_inner .buttons {
+    display: flex;
+    flex-direction: row;      /* ÉP 2 NÚT NẰM NGANG */
+    justify-content: center;
+    gap: 20px;                /* Khoảng cách giữa 2 nút */
+    flex-wrap: wrap;          /* Tự động xuống dòng trên điện thoại màn hình nhỏ */
+}
+
 .profile_inner .buttons .button {
     background: rgba(255, 255, 255, 0.15) !important;
-    backdrop-filter: blur(10px); /* Hiệu ứng kính mờ thời thượng */
-    border: 1px solid rgba(255, 255, 255, 0.4);
-    padding: 10px 25px !important;
-    font-size: 1rem !important;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    padding: 12px 35px !important;
+    border-radius: 12px !important;
+    font-size: 1.1rem !important;
+    font-weight: 600 !important;
+    color: #ffffff !important;
     transition: all 0.3s ease;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    margin: 0 !important;     /* Xóa lề mặc định của theme */
 }
 
 .profile_inner .buttons .button:hover {
-    background: #ffd700 !important; /* Đổi sang màu vàng khi di chuột */
-    color: #000 !important;
+    background: #ffd700 !important;
+    color: #000000 !important;
+    border-color: #ffd700;
     transform: translateY(-5px);
+    text-shadow: none;
+}
+
+/* ============================================================
+   4. ICON MẠNG XÃ HỘI VÀ HIỆU ỨNG TRANG TRÍ
+   ============================================================ */
+.social-icons a {
+    color: #ffffff !important;
+    margin: 20px 20px 0 20px; /* Thêm lề trên để tách biệt với hàng nút bấm */
+    transition: all 0.3s ease;
+}
+
+.social-icons a svg {
+    fill: currentColor;
+    width: 35px;
+    height: 35px;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
+}
+
+.social-icons a:hover {
+    color: #ffd700 !important;
+    transform: scale(1.3);
+}
+
+.profile_inner::after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 40px;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.6), transparent);
 }

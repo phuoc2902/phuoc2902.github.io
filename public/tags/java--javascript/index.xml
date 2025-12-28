@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Java &amp; JavaScript on TRƯƠNG HUY PHƯỚC</title>
+    <link>http://localhost:1313/tags/java--javascript/</link>
+    <description>Recent content in Java &amp; JavaScript on TRƯƠNG HUY PHƯỚC</description>
+    <generator>Hugo -- 0.153.3</generator>
+    <language>vi-vn</language>
+    <atom:link href="http://localhost:1313/tags/java--javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>So sánh Java và JavaScript – Hai cái tên giống nhau nhưng rất khác</title>
+      <link>http://localhost:1313/posts/9sosanhjavavajavascript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/9sosanhjavavajavascript/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu&#34;&gt;1. Giới thiệu&lt;/h3&gt;
+&lt;p&gt;Khi mới học lập trình, rất nhiều người (trong đó có mình) từng nghĩ Java và JavaScript là một vì tên giống nhau. Thật ra, đây là hai ngôn ngữ hoàn toàn khác nhau, chỉ giống nhau ở… cái tên. Bài viết này sẽ giúp bạn phân biệt rõ Java và JavaScript một cách dễ hiểu nhất.&lt;/p&gt;
+&lt;h3 id=&#34;2-nội-dung-chính&#34;&gt;2. Nội dung chính&lt;/h3&gt;
+&lt;h3 id=&#34;21-java-và-javascript-giống-nhau-ở-điểm-nào&#34;&gt;2.1 Java và JavaScript giống nhau ở điểm nào?&lt;/h3&gt;
+&lt;p&gt;Đều là ngôn ngữ lập trình&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

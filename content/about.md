@@ -1,6 +1,13 @@
 +++
 layout = "about"
+title = "Giới thiệu về tôi"
 draft = false
+
+# Thêm đoạn cấu hình ảnh này vào
+[cover]
+    image = "images/hero-bg.jpg" # Đường dẫn từ thư mục static
+    alt = "Trương Huy Phước Hero"
+    relative = false
 +++
 
 # Xin chào, mình là Trương Huy Phước! 👋
