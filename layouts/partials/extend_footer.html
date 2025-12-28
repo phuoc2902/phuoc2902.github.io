@@ -1,8 +1,14 @@
-<div id="music-container" style="position: fixed; bottom: 20px; left: 20px; z-index: 999; display: flex; align-items: center; background: rgba(0,0,0,0.5); padding: 8px 12px; border-radius: 20px; backdrop-filter: blur(5px);">
-    <button id="music-btn" style="background: none; border: none; color: white; cursor: pointer; font-size: 20px; outline: none;">
+<div id="music-container" style="position: fixed; bottom: 20px; left: 20px; z-index: 999; display: flex; align-items: center; background: rgba(0,0,0,0.6); padding: 8px 12px; border-radius: 30px; backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.2); transition: all 0.3s ease;">
+    <button id="music-btn" style="background: none; border: none; color: white; cursor: pointer; font-size: 20px; outline: none; display: flex; align-items: center; justify-content: center;">
         <span id="music-icon">▶️</span>
     </button>
-    <span id="music-text" style="color: white; font-size: 12px; margin-left: 8px; font-family: sans-serif; display: none;">Playing Music...</span>
+    
+    <span id="music-text" style="color: white; font-size: 12px; margin-left: 8px; font-family: sans-serif; display: none; white-space: nowrap;">Đang phát nhạc...</span>
+    
+    <button id="mute-forever-btn" title="Tắt hẳn nhạc" style="background: none; border: none; color: rgba(255,255,255,0.6); cursor: pointer; font-size: 16px; margin-left: 10px; border-left: 1px solid rgba(255,255,255,0.3); padding-left: 10px; outline: none;">
+        ✖️
+    </button>
+
     <audio id="bg-audio" loop>
         <source src="/music/background-music.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
@@ -12,24 +18,62 @@
 <script>
     const audio = document.getElementById("bg-audio");
     const btn = document.getElementById("music-btn");
+    const muteForeverBtn = document.getElementById("mute-forever-btn");
     const icon = document.getElementById("music-icon");
     const text = document.getElementById("music-text");
 
-    btn.addEventListener("click", function() {
+    audio.volume = 0.4;
+
+    // Kiểm tra xem người dùng đã từng bấm "Tắt hẳn" trước đó chưa
+    let isPermanentlyMuted = localStorage.getItem("music_muted") === "true";
+
+    function playMusic() {
+        // Chỉ tự động phát nếu người dùng chưa chọn "Tắt hẳn"
+        if (audio.paused && !isPermanentlyMuted) {
+            audio.play().then(() => {
+                icon.innerText = "⏸️";
+                text.style.display = "inline";
+            }).catch(error => {
+                console.log("Chờ tương tác để phát nhạc.");
+            });
+        }
+    }
+
+    function toggleMusic() {
         if (audio.paused) {
-            audio.play();
-            icon.innerText = "⏸️";
-            text.style.display = "inline";
+            // Khi người dùng chủ động bấm Play, ta hủy bỏ trạng thái Mute vĩnh viễn
+            isPermanentlyMuted = false;
+            localStorage.setItem("music_muted", "false");
+            playMusic();
         } else {
             audio.pause();
             icon.innerText = "▶️";
             text.style.display = "none";
         }
+    }
+
+    // Xử lý khi bấm nút "Tắt hẳn" (Dấu X)
+    muteForeverBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        isPermanentlyMuted = true;
+        localStorage.setItem("music_muted", "true"); // Lưu vào trình duyệt
+        audio.pause();
+        icon.innerText = "▶️";
+        text.style.display = "none";
+        alert("Đã tắt nhạc. Nhạc sẽ không tự động phát nữa.");
     });
 
-    // Cố gắng tự động phát khi người dùng click bất kỳ đâu trên trang lần đầu tiên
-    document.addEventListener('click', function() {
-        // Chỉ chạy nếu nhạc đang dừng và chưa được bấm Play trước đó
-        // (Tránh làm phiền nếu người dùng chủ động tắt)
-    }, { once: true });
+    btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        toggleMusic();
+    });
+
+    const autoPlayEvents = ['click', 'mousemove', 'touchstart', 'scroll'];
+    autoPlayEvents.forEach(event => {
+        window.addEventListener(event, () => {
+            if (!isPermanentlyMuted) {
+                playMusic();
+            }
+        }, { once: true });
+    });
 </script>

@@ -1,6 +1,6 @@
 baseURL = "https://phuoc2902.github.io/"
 languageCode = "vi-vn"
-title = "TRƯƠNG HUY PHƯỚC"
+title = "BLOG CỦA PHƯỚC"
 theme = "PaperMod"
 
 # Cấu hình để hỗ trợ tính năng Search (Tạo file chỉ mục JSON)
@@ -40,14 +40,15 @@ theme = "PaperMod"
         imageUrl = "images/hero-bg.jpg" # Bạn có thể thêm ảnh đại diện tại đây
         imageWidth = 120
         imageHeight = 120
+        
 
         [[params.profileMode.buttons]]
             name = "📚 Đọc Bài Viết"
             url = "/posts/"
 
         [[params.profileMode.buttons]]
-            name = "🔍 Tìm Kiếm"
-            url = "/search/"
+            name = "🔍 More about me"
+            url = "/about/"
 
     # --- Social Icons (Thêm các icon mạng xã hội cho chuyên nghiệp) ---
     [[params.socialIcons]]
@@ -83,3 +84,5 @@ theme = "PaperMod"
         name = "ABOUT ME"
         url = "/about/"
         weight = 40
+    
+    

@@ -4,6 +4,8 @@
   <url>
     <loc>http://localhost:1313/posts/1bienvadulieu/</loc>
   </url><url>
+    <loc>http://localhost:1313/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/5collectionframework/</loc>
@@ -35,8 +37,6 @@
     <loc>http://localhost:1313/search/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/3oop/</loc>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/4aaaa/</loc>
   </url>

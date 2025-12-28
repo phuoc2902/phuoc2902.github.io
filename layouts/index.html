@@ -1,0 +1,50 @@
+{{- define "main" }}
+
+<div class="about-hero-container">
+    <div class="about-hero-bg" style="background-image: url('/images/hero-bg.jpg');"></div>
+    
+    <div class="about-hero-content">
+        <h1 class="hero-slogan">NO PAIN NO GAIN</h1>
+        <button id="show-more-btn" class="btn-minimal">Xem thêm thông tin ▼</button>
+    </div>
+</div>
+
+<div id="extra-info" class="hidden-content">
+    <div class="info-card">
+        <h3>Trương Huy Phước</h3>
+        <p>Mình từng tự hỏi: 'Làm thế nào để biến những ý tưởng trong đầu thành một trò chơi thực thụ?'. Câu hỏi đó đã dẫn mình đến với ngành CNTT tại HUTECH và biến mình thành một 'fan cứng' của việc lập trình.
+
+Không chỉ dừng lại ở việc xây dựng thế giới ảo qua Unity và C#, mình còn dành thời gian khám phá sức mạnh của Java và JavaScript để mở rộng tư duy lập trình linh hoạt hơn. Với mình, mỗi dòng code dù là để vận hành một cơ chế game hay xây dựng một tính năng web đều là một mảnh ghép thú vị trong hành trình giải quyết các bài toán logic.
+
+Sau những dự án thực tế và những giờ làm việc nhóm nhịp nhàng cùng đồng đội, mình đang đi tìm một 'vùng đất mới' tại vị trí Thực tập sinh Game Developer. Mình rất sẵn sàng để học hỏi quy trình chuyên nghiệp và cháy hết mình cùng công ty trong những dự án sắp tới!.</p>
+        <div class="info-grid">
+            <span>📍 Sống tại: Việt Nam</span>
+            <span>💻 Lĩnh vực: Moblie/Game Development</span>
+            <span>📬 Liên hệ: 043 752911</span>
+        </div>
+    </div>
+</div>
+
+<article class="post-single content-container">
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+</article>
+
+
+<script>
+    document.getElementById('show-more-btn').addEventListener('click', function() {
+        const extraInfo = document.getElementById('extra-info');
+        extraInfo.classList.toggle('show');
+        if (extraInfo.classList.contains('show')) {
+            this.innerText = 'Thu gọn ▲';
+            setTimeout(() => {
+                extraInfo.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }, 100);
+        } else {
+            this.innerText = 'Xem thêm thông tin ▼';
+        }
+    });
+</script>
+
+{{- end }}
