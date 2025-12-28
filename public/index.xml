@@ -55,12 +55,9 @@
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>&lt;h1 id=&#34;xin-chào-mình-là-trương-huy-phước-&#34;&gt;Xin chào, mình là Trương Huy Phước! 👋&lt;/h1&gt;
-&lt;h3 id=&#34;-thực-tập-sinh-it--game-developer-aspiring&#34;&gt;🎯 Thực tập sinh IT | Game Developer Aspiring&lt;/h3&gt;
-&lt;p&gt;Mình là sinh viên năm cuối ngành &lt;strong&gt;Công nghệ thông tin&lt;/strong&gt; tại &lt;strong&gt;Đại học HUTECH&lt;/strong&gt;. Với niềm đam mê mãnh liệt trong lĩnh vực phát triển Game (Unity/C#) và phát triển Web (Java/JavaScript), mình luôn nỗ lực học hỏi để tạo ra những sản phẩm công nghệ chất lượng.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;-mục-tiêu-nghề-nghiệp&#34;&gt;🚀 Mục tiêu nghề nghiệp&lt;/h3&gt;
-&lt;p&gt;Hiện tại, mình đang tập trung trau dồi tư duy logic và kỹ năng giải quyết vấn đề. Mục tiêu ngắn hạn của mình là ứng dụng kiến thức đã học vào vị trí &lt;strong&gt;Thực tập sinh Game Developer&lt;/strong&gt; hoặc &lt;strong&gt;Software Developer&lt;/strong&gt; tại một môi trường chuyên nghiệp để đóng góp giá trị cho dự án và cộng đồng.&lt;/p&gt;</description>
+      <description>&lt;h3 id=&#34;chào-mừng-bạn-đã-ghé-thăm-góc-nhỏ-của-mình&#34;&gt;Chào mừng bạn đã ghé thăm góc nhỏ của mình!&lt;/h3&gt;
+&lt;p&gt;Mình hiện là sinh viên năm cuối chuyên ngành Kỹ thuật Phần mềm tại HUTECH. Nếu phải dùng 3 từ để định nghĩa về bản thân, mình sẽ chọn: Sáng tạo, Logic và Không ngừng tò mò.&lt;/p&gt;
+&lt;p&gt;Hành trình từ những dòng code đầu tiên&amp;hellip; Thay vì chỉ ngồi trên giảng đường, mình thích dấn thân vào những thử thách thực tế. Từ giải Ba cuộc thi &amp;ldquo;Đổi mới sáng tạo&amp;rdquo; năm 2023 đến việc trở thành thực tập sinh tại ITIB, mình luôn tin rằng mỗi dòng code C# hay mỗi chuyển động trong Unity đều có thể tạo ra một thế giới mới. Hiện tại, mình đang dành phần lớn thời gian để &amp;ldquo;mài giũa&amp;rdquo; kỹ năng tại vị trí Intern Game Developer, nơi mình không chỉ lập trình mà còn học cách xây dựng kịch bản và dẫn dắt các thành viên mới.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Java là gì? Mình đã bắt đầu học Java như thế nào</title>

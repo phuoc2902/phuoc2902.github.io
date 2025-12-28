@@ -11,35 +11,15 @@ draft = false
     relative = false
 +++
 
-# Xin chào, mình là Trương Huy Phước! 👋
-### 🎯 Thực tập sinh IT | Game Developer Aspiring
+### Chào mừng bạn đã ghé thăm góc nhỏ của mình!
 
-Mình là sinh viên năm cuối ngành **Công nghệ thông tin** tại **Đại học HUTECH**. Với niềm đam mê mãnh liệt trong lĩnh vực phát triển Game (Unity/C#) và phát triển Web (Java/JavaScript), mình luôn nỗ lực học hỏi để tạo ra những sản phẩm công nghệ chất lượng.
+Mình hiện là sinh viên năm cuối chuyên ngành Kỹ thuật Phần mềm tại HUTECH. Nếu phải dùng 3 từ để định nghĩa về bản thân, mình sẽ chọn: Sáng tạo, Logic và Không ngừng tò mò.
 
----
+Hành trình từ những dòng code đầu tiên... Thay vì chỉ ngồi trên giảng đường, mình thích dấn thân vào những thử thách thực tế. Từ giải Ba cuộc thi "Đổi mới sáng tạo" năm 2023 đến việc trở thành thực tập sinh tại ITIB, mình luôn tin rằng mỗi dòng code C# hay mỗi chuyển động trong Unity đều có thể tạo ra một thế giới mới. Hiện tại, mình đang dành phần lớn thời gian để "mài giũa" kỹ năng tại vị trí Intern Game Developer, nơi mình không chỉ lập trình mà còn học cách xây dựng kịch bản và dẫn dắt các thành viên mới.
 
-### 🚀 Mục tiêu nghề nghiệp
-Hiện tại, mình đang tập trung trau dồi tư duy logic và kỹ năng giải quyết vấn đề. Mục tiêu ngắn hạn của mình là ứng dụng kiến thức đã học vào vị trí **Thực tập sinh Game Developer** hoặc **Software Developer** tại một môi trường chuyên nghiệp để đóng góp giá trị cho dự án và cộng đồng.
+Ngoài việc lập trình, mình là ai? Mình không phải là một "máy code" khô khan. Mình thích ứng dụng AI (như ChatGPT, Gemini) để tối ưu hóa công việc, hay đôi khi "đổi gió" với việc thiết kế hình ảnh trên Canva và edit video trên Capcut. Kinh nghiệm từng làm cộng tác viên chăm sóc khách hàng tại SVT đã giúp mình nhận ra: Công nghệ chỉ thực sự giá trị khi nó giải quyết được vấn đề của con người và mang lại trải nghiệm tốt nhất.
 
----
-
-### 🎓 Học vấn
-* **Đại học Công nghệ TP.HCM (HUTECH)** (2022 - 2026)
-    * Chuyên ngành: Kỹ thuật phần mềm (Software Engineering)
-    * GPA hiện tại: **3.0/4.0** (Dự kiến đạt 3.2 loại Giỏi khi tốt nghiệp)
-    * **Giải thưởng:** Giải ba cuộc thi "Đổi mới sáng tạo và Tư duy khởi nghiệp" cấp trường năm 2023
-
----
-
-### 💼 Kinh nghiệm làm việc
-* **Công ty TNHH SVT** | *Cộng tác viên Trực page & Chăm sóc khách hàng* (10/2024 - 04/2025)
-    * Giải đáp thắc mắc khách hàng qua Facebook, Zalo, Website với tỷ lệ phản hồi đạt 90%
-    * Hỗ trợ team Marketing tư vấn sản phẩm/dịch vụ phù hợp cho khách hàng
-    * Quản lý và xây dựng kịch bản chăm sóc khách hàng chuyên nghiệp
-* **Công ty TNHH ITIB** | *Lập trình c# & Intern* (9/2025 - Nay)
-    * Lập trình game Unity, hỗ trợ thu thập thông tin các trang web nước ngoài về xu hướng game
-    * Hỗ trợ về mặt ý tưởng, kịch bản để tạo ra các sản phẩm tốt nhất
-    * Quản lý & hỗ trợ các bạn Intern vào sau
+Mục tiêu của mình? Trở thành một Software/Game Developer chuyên nghiệp, nơi mình có thể biến những ý tưởng điên rồ nhất thành sản phẩm thực tế.
 
 ---
 
