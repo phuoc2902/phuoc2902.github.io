@@ -1,21 +1,37 @@
 baseURL = 'https://phuoc2902.github.io/'
 languageCode = 'vi-vn'
-title = 'Blog của Trương Huy Phước'
+title = 'KÝ SỰ TRƯƠNG HUY PHƯỚC' # Đổi tên cho giống phong cách bạn thích
 theme = "PaperMod"
 
-[menu]
-  [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 10
-  [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/posts/"
-    weight = 20
-  [[menu.main]]
-    identifier = "profile"
-    name = "Profile"
-    url = "/about/"
-    weight = 30
+[params]
+    defaultTheme = "light" # Ép giao diện luôn sáng
+    ShowCodeCopyButtons = true
+    displayFullLangName = true
+    ShowShareButtons = true
+    ShowReadingTime = true
+    
+    # Cấu hình phần giới thiệu ở đầu trang (giống phần tên trang Ký sự BrSE)
+    [params.homeInfoParams]
+        Title = "KÝ SỰ TRƯƠNG HUY PHƯỚC"
+        Content = "Nơi chia sẻ hành trình học tập Java, JavaScript và những trải nghiệm công nghệ."
+
+    [[menu.main]]
+        identifier = "home"
+        name = "HOME"
+        url = "/"
+        weight = 10
+    [[menu.main]]
+        identifier = "java"
+        name = "JAVA"
+        url = "/categories/java"
+        weight = 20
+    [[menu.main]]
+        identifier = "js"
+        name = "JAVASCRIPT"
+        url = "/categories/javascript"
+        weight = 30
+    [[menu.main]]
+        identifier = "about"
+        name = "ABOUT ME"
+        url = "/about"
+        weight = 40

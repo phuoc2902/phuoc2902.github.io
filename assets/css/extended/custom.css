@@ -1,0 +1,60 @@
+/* 1. N?n trang web mau xam nh?t d? lam n?i b?t cac bai vi?t */
+body {
+    background-color: #f0f2f5 !important;
+}
+
+/* 2. Can gi?a tieu d? va menu */
+.header {
+    background: #ffffff;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    display: block;
+}
+
+.nav {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* 3. Lam bai vi?t thanh d?ng Card mau tr?ng, co bong d? */
+.main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.post-entry {
+    background: #ffffff !important;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px !important;
+    margin-bottom: 25px !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: transform 0.2s;
+}
+
+.post-entry:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* 4. Gi? l?p thanh ben (Sidebar) cho man hinh may tinh */
+@media screen and (min-width: 900px) {
+    .main {
+        display: grid;
+        grid-template-columns: 2fr 1fr; /* Chia t? l? 2 ph?n bai vi?t, 1 ph?n sidebar */
+        gap: 30px;
+    }
+    
+    /* Ep bai vi?t n?m ben trai */
+    .post-entry, .list-header {
+        grid-column: 1;
+    }
+}
+
+/* 5. Lam d?p cac Button Menu */
+.menu a {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    margin: 0 10px;
+}
