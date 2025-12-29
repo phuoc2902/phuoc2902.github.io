@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI on BLOG CỦA PHƯỚC</title>
+    <link>http://localhost:1313/tags/ai/</link>
+    <description>Recent content in AI on BLOG CỦA PHƯỚC</description>
+    <generator>Hugo -- 0.153.3</generator>
+    <language>vi-vn</language>
+    <atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AIVA – Trợ lý AI cá nhân hỗ trợ ghi âm, tóm tắt và trò chuyện thông minh</title>
+      <link>http://localhost:1313/posts/aiva-ai-assistant/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/aiva-ai-assistant/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu&#34;&gt;1. Giới thiệu&lt;/h3&gt;
+&lt;p&gt;Trong quá trình học tập và làm việc nhóm, mình nhận ra một vấn đề khá quen thuộc:&lt;br&gt;
+👉 &lt;strong&gt;Cuộc họp thì nhiều, ghi âm thì có, nhưng rất ít khi nghe lại đầy đủ vì tốn thời gian.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Từ đó, mình bắt đầu xây dựng &lt;strong&gt;AIVA (Artificial Intelligence Virtual Assistant)&lt;/strong&gt; – một &lt;strong&gt;trợ lý AI cá nhân&lt;/strong&gt; có thể:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ghi nhận nội dung cuộc họp&lt;/li&gt;
+&lt;li&gt;Tóm tắt lại những ý chính&lt;/li&gt;
+&lt;li&gt;Và cho phép người dùng hỏi trực tiếp AI về nội dung đó&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;AIVA không phải là một chatbot đơn thuần, mà là một công cụ hỗ trợ học tập và làm việc thực tế.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
