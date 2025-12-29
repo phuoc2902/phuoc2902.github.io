@@ -1,0 +1,134 @@
+/* ===== HERO ===== */
+.about-hero-container {
+    position: relative;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.about-hero-bg {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.6);
+}
+
+.about-hero-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: white;
+}
+
+.hero-slogan {
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 5px;
+    margin-bottom: 15px;
+    text-shadow: 0 5px 20px rgba(0,0,0,0.5);
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    opacity: 0.95;
+}
+
+/* ===== PAGE ===== */
+.about-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-card {
+    background: var(--code-bg);
+    border-radius: 25px;
+    padding: 50px;
+    box-shadow:
+        0 20px 60px rgba(0,0,0,0.15),
+        0 0 0 1px var(--border);
+}
+
+/* ===== TYPOGRAPHY ===== */
+.about-card h3 {
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.about-card h3::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, var(--content), transparent);
+    margin-top: 10px;
+}
+
+.about-card p {
+    font-size: 1.05rem;
+    line-height: 1.9;
+    margin-bottom: 20px;
+}
+
+.about-card ul {
+    margin-left: 20px;
+}
+
+.about-card li {
+    margin-bottom: 10px;
+}
+
+/* ===== NAVIGATION ===== */
+.about-navigation {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.about-nav-btn {
+    padding: 14px 32px;
+    border-radius: 30px;
+    background: linear-gradient(135deg, #f5f5f5, #e0e0e0);
+    color: var(--content);
+    font-weight: 600;
+    text-decoration: none;
+    border: 1px solid var(--border);
+    transition: 0.3s;
+}
+
+.about-nav-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .hero-slogan {
+        font-size: 2.2rem;
+    }
+
+    .about-card {
+        padding: 30px 20px;
+    }
+}
+
+/* ===== CV BUTTON (HIGHLIGHT) ===== */
+.cv-btn {
+    background: linear-gradient(135deg, #111827, #1f2937);
+    color: #ffffff;
+    border: none;
+}
+
+.cv-btn:hover {
+    background: linear-gradient(135deg, #000000, #111827);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}

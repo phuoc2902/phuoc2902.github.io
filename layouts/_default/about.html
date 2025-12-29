@@ -1,0 +1,46 @@
+{{ define "main" }}
+
+<!-- HERO -->
+<div class="about-hero-container">
+    <div class="about-hero-bg"
+         style="background-image: url('{{ .Params.cover.image | relURL }}');">
+    </div>
+
+    <div class="about-hero-content">
+        <h1 class="hero-slogan">{{ .Title }}</h1>
+        <p class="hero-subtitle">
+            Trương Huy Phước · Software / Game Developer
+        </p>
+    </div>
+</div>
+
+<!-- CONTENT -->
+<div class="about-page">
+    <div class="about-card">
+
+        {{ .Content }}
+
+        <!-- ACTION BUTTONS -->
+        <div class="about-navigation">
+
+            <a href="{{ "/" | relURL }}" class="about-nav-btn">
+                🏠 Về trang chủ
+            </a>
+
+            <a href="{{ "/posts/" | relURL }}" class="about-nav-btn">
+                📚 Đọc các bài viết
+            </a>
+
+            <!-- DOWNLOAD CV -->
+            <a href="{{ "files/Truong-Huy-Phuoc-CV.pdf" | relURL }}"
+               class="about-nav-btn cv-btn"
+               target="_blank"
+               rel="noopener">
+                ⬇️ Tải CV (PDF)
+            </a>
+
+        </div>
+    </div>
+</div>
+
+{{ end }}

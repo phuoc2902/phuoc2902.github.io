@@ -4,9 +4,8 @@ title = "Giới thiệu về tôi"
 url = "/about/"
 draft = false
 
-# Thêm đoạn cấu hình ảnh này vào
 [cover]
-    image = "images/hero-bg.jpg" # Đường dẫn từ thư mục static
+    image = "images/hero-bg.jpg"
     alt = "Trương Huy Phước Hero"
     relative = false
 +++
@@ -25,29 +24,30 @@ Mục tiêu của mình? Trở thành một Software/Game Developer chuyên nghi
 
 ### 🛠 Kỹ năng của mình
 * **Lập trình:** Java, JavaScript, C# (Unity), HTML/CSS
-* **Công nghệ AI:** Sử dụng thành thạo ChatGPT, Gemini, Claude để hỗ trợ học tập và làm việc
-* **Thiết kế & Media:** Chỉnh sửa ảnh/video cơ bản trên Canva, Capcut
-* **Ngoại ngữ:** Tiếng Anh giao tiếp và đọc hiểu tài liệu tốt
-* **Kỹ năng mềm:** Làm việc nhóm, giao tiếp tự tin, tư duy trách nhiệm và chủ động trong công việc
+* **Công nghệ AI:** ChatGPT, Gemini, Claude
+* **Thiết kế & Media:** Canva, Capcut
+* **Ngoại ngữ:** Tiếng Anh giao tiếp tốt
+* **Kỹ năng mềm:** Teamwork, giao tiếp, chủ động
 
 ---
 
 ### 📜 Chứng chỉ
-* **JavaScript Essentials 2** (11/2025)
-* **JavaScript Essentials 1** (11/2025)
-* **Networking Basics** (11/2025)
-* **Chứng chỉ Kỹ năng Giao tiếp và Làm việc nhóm** (02/2025)
-* **Chứng chỉ Tin học văn phòng** (10/2024)
-
+* JavaScript Essentials 2 (11/2025)
+* JavaScript Essentials 1 (11/2025)
+* Networking Basics (11/2025)
+* Kỹ năng Giao tiếp & Làm việc nhóm (02/2025)
+* Tin học văn phòng (10/2024)
 
 ---
 
 ### 📬 Liên hệ với mình
-Nếu bạn quan tâm đến các dự án của mình hoặc muốn hợp tác, đừng ngần ngại kết nối nhé:
-* **Địa chỉ:** TP. Thủ Đức, TP. Hồ Chí Minh
-* **Số điện thoại:** 0384.770.748
+* **Địa chỉ:** TP. Thủ Đức, TP.HCM
+* **SĐT:** 0384.770.748
 * **Email:** truonghuyphuoc789@gmail.com
-* **Facebook:** [facebook.com/phuoctruong9211/](https://www.facebook.com/phuoctruong9211/)
+* **Facebook:** https://www.facebook.com/phuoctruong9211/
 
 ---
 *"Work hard in silence, let success make noise"*
+
+
+
