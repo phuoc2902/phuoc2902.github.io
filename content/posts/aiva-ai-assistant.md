@@ -145,4 +145,14 @@ Thông qua dự án này, mình muốn hướng tới việc ứng dụng AI đ�
 Nếu bạn quan tâm hoặc muốn trao đổi thêm về dự án, mình rất sẵn sàng kết nối.
 
 
+Ý tưởng thêm video demo trực tiếp vào bài viết rất hay, nó giúp người xem hình dung rõ ràng nhất cách AIVA hoạt động mà không cần phải chuyển tab.
+
+Vì đây là dự án cá nhân của bạn, tốt nhất là bạn nên tự quay một đoạn màn hình (Screen record) rồi upload lên YouTube cá nhân. Dưới đây là cách bạn thêm Phần 8 vào file Markdown để video hiển thị ngay trên trang (nhúng video):
+
+### 8. Demo sản phẩm
+Dưới đây là video ngắn giới thiệu cách thức vận hành của AIVA, từ khâu tải file âm thanh đến khi nhận được bản tóm tắt từ Gemini:
+
+{{< youtube EG9Vl-CtKkQ >}}
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"> <iframe src="https://www.youtube.com/embed/HceKUGguai0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="AIVA Demo Video"></iframe> </div>
 
