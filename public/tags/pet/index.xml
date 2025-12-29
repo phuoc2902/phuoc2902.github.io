@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Húi on BLOG CỦA PHƯỚC</title>
-    <link>http://localhost:1313/tags/h%C3%BAi/</link>
-    <description>Recent content in Húi on BLOG CỦA PHƯỚC</description>
+    <title>Pet on BLOG CỦA PHƯỚC</title>
+    <link>http://localhost:1313/tags/pet/</link>
+    <description>Recent content in Pet on BLOG CỦA PHƯỚC</description>
     <generator>Hugo -- 0.153.3</generator>
     <language>vi-vn</language>
     <lastBuildDate>Mon, 29 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/h%C3%BAi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/pet/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Không có gì đặc biệt... chỉ có con mèo của tôi thôi!</title>
       <link>http://localhost:1313/posts/meomeo/</link>

@@ -15,6 +15,20 @@
       <description></description>
     </item>
     <item>
+      <title>Cuộc Sống</title>
+      <link>http://localhost:1313/tags/cu%E1%BB%99c-s%E1%BB%91ng/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cu%E1%BB%99c-s%E1%BB%91ng/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Húi</title>
+      <link>http://localhost:1313/tags/h%C3%BAi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/h%C3%BAi/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Java</title>
       <link>http://localhost:1313/tags/java/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -33,6 +47,20 @@
       <link>http://localhost:1313/tags/javascript/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mèo</title>
+      <link>http://localhost:1313/tags/m%C3%A8o/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/m%C3%A8o/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pet</title>
+      <link>http://localhost:1313/tags/pet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/pet/</guid>
       <description></description>
     </item>
     <item>

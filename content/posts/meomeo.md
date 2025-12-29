@@ -1,28 +1,40 @@
 ---
-title: "Không có gì đặt biệt hết ngoài con mèo của tôi"
+title: "Không có gì đặc biệt... chỉ có con mèo của tôi thôi!"
 draft: false
-tags: ["Húi"]  # Thêm tag phù hợp
+tags: ["mèo", "húi", "pet"]
 author: ["Trương Huy Phước"]
 cover:
-    image: "/images/meomeo/avt.jpg"       # Ảnh bìa chính
-    alt: "Mô tả ảnh bìa cho SEO"
-    caption: "MEOMEOMEO"
-    relative: false
+  image: "/images/meomeo/avt.jpg"
+  alt: "Con mèo dễ thương của tôi"
+  caption: "MEOMEOMEO – boss nhà mình"
+  relative: false
 ---
 
+### Bộ sưu tập MEOMEOMEO
+
 ![MEOMEOMEO](/images/meomeo/meo1.jpg)
-*MEO*
+*Ngáp một cái đã mệt rồi...*
+
 ![MEOMEOMEO](/images/meomeo/meo3.jpg)
-*MEO*
+*Đang tính kế gì đây?*
+
 ![MEOMEOMEO](/images/meomeo/meo4.jpg)
-*MEO*
+*Đồ chơi hay hơn chủ luôn*
+
 ![MEOMEOMEO](/images/meomeo/meo5.jpg)
-*MEO*
+*Chế độ "nằm dài" kích hoạt*
+
 ![MEOMEOMEO](/images/meomeo/meo6.jpg)
-*MEO*
+*Đột nhiên chạy như điên*
+
 ![MEOMEOMEO](/images/meomeo/meo7.jpg)
-*MEO*
+*"Chụp tao đẹp không?"*
+
 ![MEOMEOMEO](/images/meomeo/meo8.jpg)
-*MEO*
+*Ngủ là nghề của tao*
+
 ![MEOMEOMEO](/images/meomeo/meo9.jpg)
-*MEO*
+*Nhìn cái mặt này là hết đường chống cự*
+
+### Kết thúc
+Mèo nhà mình thế đấy! 🐱💕
