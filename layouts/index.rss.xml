@@ -1,0 +1,30 @@
+{{- $pages := where .Site.Pages "Kind" "!=" "taxonomy" }}
+{{- $pages := where $pages "Kind" "!=" "term" }}
+{{- $pages := where $pages "Draft" "!=" true }}
+{{- $pages := where $pages "Private" "!=" true }}
+{{- if .Site.Params.robotsNoindex }}
+{{- $pages := where $pages "Robots" "!=" "noindex" }}
+{{- end }}
+{{- $pages := first 50 (sort $pages "Date" "desc") }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>{{ .Site.Title }}</title>
+    <link>{{ .Site.BaseURL }}</link>
+    <description>{{ with .Site.Params.description }}{{ . }}{{ else }}Recent content from {{ .Site.Title }}{{ end }}</description>
+    <language>{{ with .Site.Language.Lang }}{{ . }}{{ else }}en-us{{ end }}</language>
+    <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+    <atom:link href="{{ .Permalink }}index.xml" rel="self" type="application/rss+xml" />
+    {{ with .Site.Params.author }}<managingEditor>{{ . }}</managingEditor>{{ end }}
+    {{ range $pages }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <pubDate>{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      {{ with .Site.Author.name }}<author>{{ . }}</author>{{ end }}
+      <guid>{{ .Permalink }}</guid>
+      <description>{{ (or .Summary .Short  "") }}</description>
+      {{ with .Content }}<content:encoded><![CDATA[{{ . | html }}]]></content:encoded>{{ end }}
+    </item>
+    {{ end }}
+  </channel>
+</rss>
