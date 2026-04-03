@@ -1,6 +1,6 @@
 baseURL = "https://phuoc2902.github.io/"
 languageCode = "vi-vn"
-title = "BLOG CỦA PHƯỚC"
+title = "PHƯỚC DEV | Personal Portfolio"
 author = "Trương Huy Phước"
 theme = "PaperMod"
 ignoreLogs = ["warning-goldmark-raw-html"]
