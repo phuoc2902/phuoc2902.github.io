@@ -23,5 +23,12 @@
 &lt;/ul&gt;
 &lt;p&gt;AIVA không phải là một chatbot đơn thuần, mà là một công cụ hỗ trợ học tập và làm việc thực tế.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Unity 2D Survivor Wave – dự án game top-down của mình</title>
+      <link>http://localhost:1313/posts/unity-2d-survivor-wave/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/unity-2d-survivor-wave/</guid>
+      <description>&lt;p&gt;Dự án game Unity 2D (top-down/survivor wave): vòng lặp wave → shop → wave, 2 chế độ vũ khí, hệ EXP/level-up và scaling độ khó.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
