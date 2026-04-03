@@ -25,7 +25,7 @@ jobs:
           ls -la themes/
           ls -la themes/PaperMod/
       - name: Build
-        run: hugo --minify -v
+        run: hugo --minify
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
