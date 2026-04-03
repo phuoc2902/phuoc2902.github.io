@@ -5,8 +5,8 @@ url = "/about/"
 draft = false
 
 [cover]
-    image = "images/hero-bg.jpg"
-    alt = "Trương Huy Phước Hero"
+    image = "images/phuocnewcv.png"
+    alt = "Trương Huy Phước"
     relative = false
 +++
 
