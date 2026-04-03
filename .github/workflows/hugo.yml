@@ -17,10 +17,15 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
+          hugo-version: '0.121.2'
           extended: true
+      - name: Debug
+        run: |
+          hugo version
+          ls -la themes/
+          ls -la themes/PaperMod/
       - name: Build
-        run: hugo --minify
+        run: hugo --minify -v
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

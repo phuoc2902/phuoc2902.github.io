@@ -3,6 +3,7 @@ languageCode = "vi-vn"
 title = "BLOG CỦA PHƯỚC"
 author = "Trương Huy Phước"
 theme = "PaperMod"
+ignoreLogs = ["warning-goldmark-raw-html"]
 
 # Cấu hình để hỗ trợ tính năng Search (Tạo file chỉ mục JSON)
 [outputs]
