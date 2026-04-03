@@ -5,6 +5,9 @@ author = "Trương Huy Phước"
 theme = "PaperMod"
 ignoreLogs = ["warning-goldmark-raw-html"]
 
+[services.googleAnalytics]
+id = ""  # Add your Google Analytics ID here if needed
+
 # Cấu hình để hỗ trợ tính năng Search (Tạo file chỉ mục JSON)
 [outputs]
     home = ["HTML", "RSS", "JSON"]
