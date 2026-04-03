@@ -1,6 +1,7 @@
 baseURL = "https://phuoc2902.github.io/"
 languageCode = "vi-vn"
 title = "BLOG CỦA PHƯỚC"
+author = "Trương Huy Phước"
 theme = "PaperMod"
 
 # Cấu hình để hỗ trợ tính năng Search (Tạo file chỉ mục JSON)
